@@ -1,13 +1,27 @@
 import './App.css';
 import Header from './Header'
+import Sidebar from './sidebar'
+import Feed from './Feed'
 function App() {
   return (
     <div className="App">
-     {/* header */}
-     <Header />
-     {/* body */}
-     {/* slider */}
-     {/* widgets */}
+      {/* header */}
+      <Header />
+      <div className="app__body">
+
+
+        {/* slider */}
+
+        <Sidebar />
+
+        {/* feed */}
+        <Feed />
+
+
+        {/* widgets */}
+
+
+      </div>
     </div>
   );
 }
