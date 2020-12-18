@@ -9,13 +9,17 @@ import StorefrontIcon from '@material-ui/icons/Storefront';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import ExpandMoreOutlined from '@material-ui/icons/ExpandMoreOutlined';
 
+import {useStateValue} from './StateProvider';
 
 
 
 function Sidebar() {
+
+    const [{user},dispatch] = useStateValue();
+
     return (
         <div className="sidbar">
-            <SidebarRow src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKCMkL-GGgAoieaCghq1YxEPPolQ2l0fmZ7A&usqp=CAU" title="Pm Imran Khan" />
+            <SidebarRow src={user.photoURL} title={user.displayName} />
             <SidebarRow Icon={LocalHospitalIcon} title="COViD-19 Information Center" />
             <SidebarRow Icon={EmojiFlagsIcon} title="Pages" />
             <SidebarRow Icon={PeopleIcon} title="Friends" />
