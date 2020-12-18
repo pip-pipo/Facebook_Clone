@@ -14,9 +14,9 @@ function StoryReal() {
 
             <Story image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHQV4t2NVQBTAK8i38UoFXe9VEeKTvAng4A&usqp=CAU" profileSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHQV4t2NVQBTAK8i38UoFXe9VEeKTvAng4A&usqp=CAU" title="Naim sarkar" />
 
-            <Story image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3CCFyvqtFYw2qvfQn3UF_FiYdwx_bLPusoA&usqp=CAU" profileSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3CCFyvqtFYw2qvfQn3UF_FiYdwx_bLPusoA&usqp=CAU" title="Joney " />
+            
 
-            <Story image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYatq--B02mwbEjYWLQXAPDncj_GgTk1H0mg&usqp=CAU" profileSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYatq--B02mwbEjYWLQXAPDncj_GgTk1H0mg&usqp=CAU" title="Hanif sahid" />
+           
         </div>
     )
 }
