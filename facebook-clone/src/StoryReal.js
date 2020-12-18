@@ -12,11 +12,7 @@ function StoryReal() {
 
             <Story image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf921ji3WgeaKBTjGnqfTbLv2JlBieXpvYDQ&usqp=CAU" profileSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf921ji3WgeaKBTjGnqfTbLv2JlBieXpvYDQ&usqp=CAU" title="Rofiqi Saim" />
 
-            <Story image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHQV4t2NVQBTAK8i38UoFXe9VEeKTvAng4A&usqp=CAU" profileSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHQV4t2NVQBTAK8i38UoFXe9VEeKTvAng4A&usqp=CAU" title="Naim sarkar" />
-
-            
-
-           
+            <Story image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHQV4t2NVQBTAK8i38UoFXe9VEeKTvAng4A&usqp=CAU" profileSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNHQV4t2NVQBTAK8i38UoFXe9VEeKTvAng4A&usqp=CAU" title="Naim sarkar" />    
         </div>
     )
 }

@@ -2,11 +2,18 @@ import './App.css';
 import Header from './Header'
 import Sidebar from './sidebar'
 import Feed from './Feed'
+import Widgets from './Widgets'
+import Login from './Login'
 function App() {
+  const user = null;
   return (
     <div className="App">
       {/* header */}
-      <Header />
+      {!user ? (<Login />):(
+
+
+<>
+ <Header />
       <div className="app__body">
 
 
@@ -19,9 +26,15 @@ function App() {
 
 
         {/* widgets */}
-
+        <Widgets />
 
       </div>
+
+
+
+</>
+      )}
+     
     </div>
   );
 }

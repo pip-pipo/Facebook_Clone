@@ -1,9 +1,11 @@
 .App{
     background-color: #f1f2f5;
     height: auto;
+ max-width:100%;
+    
 }
 
 .app__body{
-
  display: flex;
+ max-width:100%;
 }
